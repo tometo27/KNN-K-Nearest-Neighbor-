@@ -1,0 +1,26 @@
+# PyCharm IDE配置
+.idea/
+*.iml
+*.iws
+
+# Python虚拟环境
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 数据集和模型（根据你的需求调整）
+data/
+my_model/
+*.pth
+*.pkl
+*.h5
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+#忽略pkl格式的模型文件
+*.pkl
